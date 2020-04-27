@@ -19,7 +19,7 @@ public class PMovement : MonoBehaviour
     public float maxSpeed = 100;
     public bool grounded;
     public LayerMask whatGround;
-    private float speed;
+    public float speed;
     public Transform groundCheck;
     public float groundDistance = 0.2f;
 
